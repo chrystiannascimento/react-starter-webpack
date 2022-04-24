@@ -8,7 +8,7 @@ module.exports = {
   mode,
   entry: join(__dirname, 'index.js'),
   output: {
-    path: join(__dirname, 'build'),
+    path: join(__dirname, '../amd/build'),
     filename: 'index.bundled.js'
   },
   devServer: {
